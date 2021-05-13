@@ -1,4 +1,4 @@
-# My Favorite Restaurants
+# Log In System
 
 A simple web application for log-in system
 

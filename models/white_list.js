@@ -15,4 +15,4 @@ const white_list_schema = new Schema({
   },
 })
 
-module.exports = mongoose.model('white_list', white_list_schema )
+module.exports = mongoose.model('White_List', white_list_schema )

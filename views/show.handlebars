@@ -1,1 +1,12 @@
-<h1>{{welcome}}</h1>
+<h1>{{welcomeMSG}}</h1>
+
+{{#if errorMsg}}
+<div class="alert alert-danger text-center" role="alert">
+  {{errorMsg}}
+</div>
+{{/if}}
+<div class="container">
+  <form action="/">
+    <button type="submit" class="btn btn-success">Back</button>
+  </form>
+</div>
